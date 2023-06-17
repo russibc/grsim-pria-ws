@@ -30,6 +30,16 @@ git clone https://github.com/KRSSG/krssg_ssl_msgs.git
 ```
 Ao final se deve ter cinco diretórios dentro de `/test_ssl/src`: o `grSim` e os quatro repositórios clonados acima.
 
+## Passo 6: Mudar o caminho do GrSim no arquivo `run_grsim.py`
+
+Deve ser colocado o caminho completo do arquivo GrSim dentro da pasta GrSim/bin.
+
+Use o caminho completo gerado em:
+```bash
+echo $PWD
+```
+## Passo 7: Instalar dependências python no grsim_ros_bridge
+
 Além disso se deve entrar em `grsim_ros_bridge` e executar
 
 ```bash
@@ -38,13 +48,13 @@ Clone the project
 pip install .
 ```
 
-## Passo 6: Executar o GrSim
+## Passo 8: Executar o GrSim para conferência
 
 ```bash
 cd /grSim/bin
 ./grSim
 ```
-## Passo 7: Modificar parâmetros do GrSim pela interface gráfica da execução
+## Passo 9: Modificar parâmetros do GrSim pela interface gráfica da execução
 
 Game > Division B
 
@@ -62,7 +72,7 @@ E, por fim, reposicionar os jogadores fora do campo de modo que se pareça como 
 
 ![Board](https://github.com/russibc/grsim-pria/blob/main/board.png)
 
-## Passo 8: Fechar o programa e Configurar workspace
+## Passo 10: Fechar o programa e Configurar workspace
 
 Volte ao diretório `test_ssl` e execute:
 
@@ -73,11 +83,8 @@ catkin_make
 source devel/setup.bash
 roscd grsim_ros_bridge
 ```
-## Passo 9: Mudar o caminho do GrSim no arquivo `run_grsim.py`
 
-Deve ser colocado o caminho completo do arquivo GrSim dentro da pasta GrSim/bin.
-
-## Passo 10: Executar todo o sistema
+## Passo 11: Executar todo o sistema
 
 ```bash
 roslaunch grsim_ros_bridge launch.launch
