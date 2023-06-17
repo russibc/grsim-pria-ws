@@ -62,7 +62,7 @@ E, por fim, reposicionar os jogadores fora do campo de modo que se pareça como 
 
 ![Board](https://github.com/russibc/grsim-pria/blob/main/board.png)
 
-## Passo 8: Configurar workspace
+## Passo 8: Fechar o programa e Configurar workspace
 
 Volte ao diretório `test_ssl` e execute:
 
@@ -72,4 +72,13 @@ catkin_make
 ```bash
 source devel/setup.bash
 roscd grsim_ros_bridge
+```
+## Passo 9: Mudar o caminho do GrSim no arquivo `run_grsim.py`
+
+Deve ser colocado o caminho completo da pasta GrSim.
+
+## Passo 10: Executar todo o sistema
+
+```bash
+roslaunch grsim_ros_bridge launch.launch
 ```
