@@ -28,7 +28,15 @@ git clone ggit@github.com:Los-UruBots-del-Norte/grsim_ros_bridge_msgs.git
 git clone git@github.com:Los-UruBots-del-Norte/grsim_ros_bridge.git
 git clone git@github.com:KRSSG/krssg_ssl_msgs.git
 ```
-Ao final se deve ter cinco diretórios dentro de `/test_ssl/src`: o `grSim` e os quatro repositórios clonados acima.
+Ao final se deve ter cinco diretórios dentro de `/test_ssl/src`: o `grSim` e os quatro repositórios clonados acima.`
+
+Além disso se deve entrar em `grsim_ros_bridge` e executar
+
+```bash
+cd ssl-python-clients
+Clone the project
+pip install .
+```
 
 ## Passo 6: Executar o GrSim
 
