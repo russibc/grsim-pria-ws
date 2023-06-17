@@ -75,7 +75,7 @@ roscd grsim_ros_bridge
 ```
 ## Passo 9: Mudar o caminho do GrSim no arquivo `run_grsim.py`
 
-Deve ser colocado o caminho completo da pasta GrSim.
+Deve ser colocado o caminho completo do arquivo GrSim dentro da pasta GrSim/bin.
 
 ## Passo 10: Executar todo o sistema
 
