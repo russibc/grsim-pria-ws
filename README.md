@@ -53,3 +53,15 @@ Field > Division B > length: 4
 E, por fim, reposicionar os jogadores fora do campo de modo que se pareça como na imagem abaixo:
 
 ![Board](https://github.com/russibc/grsim-pria/blob/main/board.png)
+
+## Passo 8: Configurar workspace
+
+Volte ao diretório `test_ssl` e execute:
+
+```bash
+catkin_make
+```
+```bash
+source devel/setup.bash
+roscd grsim_ros_bridge
+```
