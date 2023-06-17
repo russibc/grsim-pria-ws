@@ -14,6 +14,7 @@ cd src
 ```
 ## Passo 3: Inicializar workspace
 ```bash
+source /opt/ros/noetic/setup.bash
 catkin_init_workspace
 ```
 ## Passo 4: Instalação e configuração do GrSim
