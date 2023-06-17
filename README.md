@@ -23,10 +23,10 @@ Tutorial disponível [aqui](https://github.com/RoboCup-SSL/grSim/blob/master/INS
 ## Passo 5: Clonar repositórios dentro da pasta `src` do diretório `test_ssl`
 
 ```bash
-git clone git@github.com:Los-UruBots-del-Norte/vision_comm.git
-git clone ggit@github.com:Los-UruBots-del-Norte/grsim_ros_bridge_msgs.git
-git clone git@github.com:Los-UruBots-del-Norte/grsim_ros_bridge.git
-git clone git@github.com:KRSSG/krssg_ssl_msgs.git
+git clone https://github.com/Los-UruBots-del-Norte/vision_comm.git
+git clone https://github.com/Los-UruBots-del-Norte/grsim_ros_bridge_msgs.git
+git clone https://github.com/Los-UruBots-del-Norte/grsim_ros_bridge.git
+git clone https://github.com/KRSSG/krssg_ssl_msgs.git
 ```
 Ao final se deve ter cinco diretórios dentro de `/test_ssl/src`: o `grSim` e os quatro repositórios clonados acima.`
 
