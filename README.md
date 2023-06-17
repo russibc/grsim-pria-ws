@@ -78,6 +78,7 @@ E, por fim, reposicionar os jogadores fora do campo de modo que se pareça como 
 Volte ao diretório `test_ssl` e execute:
 
 ```bash
+cmake_policy(SET CMP0071 NEW)
 catkin_make
 ```
 ```bash
