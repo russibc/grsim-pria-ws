@@ -55,26 +55,12 @@ Além disso se deve entrar em `grsim_ros_bridge` e executar
 cd ssl-python-clients
 pip install .
 ```
-
-## Passo 8: Configurar workspace
-
-Volte ao diretório `test_ssl` e execute:
-
-```bash
-catkin_make
-```
-```bash
-source devel/setup.bash
-roscd grsim_ros_bridge
-roslaunch grsim_ros_bridge launch.launch
-```
-## Passo 9: Executar o GrSim para conferência
+## Passo 8: Executar GrSim e Modificar parâmetros pela interface gráfica da execução
 
 ```bash
 cd /grSim/bin
 ./grSim
 ```
-## Passo 10: Modificar parâmetros do GrSim pela interface gráfica da execução
 
 Game > Division B
 
@@ -91,3 +77,19 @@ Field > Division B > length: 4
 E, por fim, reposicionar os jogadores fora do campo de modo que se pareça como na imagem abaixo:
 
 ![Board](https://github.com/russibc/grsim-pria/blob/main/board.png)
+
+## Passo 9: Fechar GrSim e Configurar workspace
+
+Volte ao diretório `test_ssl` e execute:
+
+```bash
+source devel/setup.bash
+catkin_make
+```
+```bash
+roscd grsim_ros_bridge
+```
+O comando acima levará à pasta grsim_ros_bridge. Volte à pasta `test_ssl` e execute finalmente:
+```bash
+roslaunch grsim_ros_bridge launch.launch
+```
