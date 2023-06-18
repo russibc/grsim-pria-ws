@@ -3,7 +3,8 @@
 ## Essencial: 
 
 ```bash
-sudo apt python3-pip -y
+sudo apt install python -y
+sudo apt install python3-pip -y
 sudo apt install git -y
 ```
 
