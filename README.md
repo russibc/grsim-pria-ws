@@ -83,10 +83,11 @@ E, por fim, reposicionar os jogadores fora do campo de modo que se pareça como 
 Volte ao diretório `test_ssl` e execute:
 
 ```bash
-source devel/setup.bash
+source /opt/ros/noetic/setup.bash
 catkin_make
 ```
 ```bash
+source devel/setup.bash
 roscd grsim_ros_bridge
 ```
 O comando acima levará à pasta grsim_ros_bridge. Volte à pasta `test_ssl` e execute finalmente:
