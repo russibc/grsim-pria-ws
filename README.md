@@ -53,7 +53,6 @@ Além disso se deve entrar em `grsim_ros_bridge` e executar
 
 ```bash
 cd ssl-python-clients
-Clone the project
 pip install .
 ```
 
@@ -62,12 +61,12 @@ pip install .
 Volte ao diretório `test_ssl` e execute:
 
 ```bash
-cmake_policy(SET CMP0071 NEW)
 catkin_make
 ```
 ```bash
 source devel/setup.bash
 roscd grsim_ros_bridge
+roslaunch grsim_ros_bridge launch.launch
 ```
 ## Passo 9: Executar o GrSim para conferência
 
@@ -92,9 +91,3 @@ Field > Division B > length: 4
 E, por fim, reposicionar os jogadores fora do campo de modo que se pareça como na imagem abaixo:
 
 ![Board](https://github.com/russibc/grsim-pria/blob/main/board.png)
-
-## Passo 11: Executar todo o sistema
-
-```bash
-roslaunch grsim_ros_bridge launch.launch
-```
