@@ -1,5 +1,11 @@
 # grsim-pria
 
+## Essencial: 
+
+```bash
+sudo apt install git -y
+```
+
 ## Passo 1: Instalação do ROS no Ubuntu 20.04
 
 Tutorial em [português (PT-BR)](https://github.com/russibc/grsim-pria/blob/main/INSTALL-ROS-PT.md) ou [español (ES)](https://github.com/russibc/grsim-pria/blob/main/INSTALL-ROS-ES.md).
