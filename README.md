@@ -55,13 +55,25 @@ Clone the project
 pip install .
 ```
 
-## Passo 8: Executar o GrSim para conferência
+## Passo 8: Configurar workspace
+
+Volte ao diretório `test_ssl` e execute:
+
+```bash
+cmake_policy(SET CMP0071 NEW)
+catkin_make
+```
+```bash
+source devel/setup.bash
+roscd grsim_ros_bridge
+```
+## Passo 9: Executar o GrSim para conferência
 
 ```bash
 cd /grSim/bin
 ./grSim
 ```
-## Passo 9: Modificar parâmetros do GrSim pela interface gráfica da execução
+## Passo 10: Modificar parâmetros do GrSim pela interface gráfica da execução
 
 Game > Division B
 
@@ -78,19 +90,6 @@ Field > Division B > length: 4
 E, por fim, reposicionar os jogadores fora do campo de modo que se pareça como na imagem abaixo:
 
 ![Board](https://github.com/russibc/grsim-pria/blob/main/board.png)
-
-## Passo 10: Fechar o programa e Configurar workspace
-
-Volte ao diretório `test_ssl` e execute:
-
-```bash
-cmake_policy(SET CMP0071 NEW)
-catkin_make
-```
-```bash
-source devel/setup.bash
-roscd grsim_ros_bridge
-```
 
 ## Passo 11: Executar todo o sistema
 
