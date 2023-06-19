@@ -44,7 +44,7 @@ Ao final se deve ter cinco diretórios dentro de `/test_ssl/src`: o `grSim` e os
 Deve ser colocado o caminho completo do arquivo GrSim dentro da pasta GrSim/bin, exemplo:
 
 ```bash
-/home/SEU_USUARIO_AQUI/grsim-pria-ws/src/grSim/bin
+/home/SEU_USUARIO_AQUI/grsim-pria-ws/src/grSim/bin/grSim
 ```
 
 Use o caminho completo gerado em:
