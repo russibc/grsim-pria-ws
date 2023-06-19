@@ -41,12 +41,17 @@ Ao final se deve ter cinco diretórios dentro de `/test_ssl/src`: o `grSim` e os
 
 ## Passo 6: Mudar o caminho do GrSim no arquivo `run_grsim.py`
 
-Deve ser colocado o caminho completo do arquivo GrSim dentro da pasta GrSim/bin.
+Deve ser colocado o caminho completo do arquivo GrSim dentro da pasta GrSim/bin, exemplo:
+
+```bash
+/home/SEU_USUARIO_AQUI/grsim-pria-ws/src/grSim/bin
+```
 
 Use o caminho completo gerado em:
 ```bash
 echo $PWD
 ```
+
 ## Passo 7: Instalar dependências python no grsim_ros_bridge
 
 Além disso se deve entrar em `grsim_ros_bridge` e executar
