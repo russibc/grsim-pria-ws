@@ -1,2 +1,0 @@
-grsim_ros_bridge:grsim_ros_bridge_msgs:krssg_ssl_msgs:vision_comm
--DCATKIN_DEVEL_PREFIX=/home/bru/grsim-pria-ws/devel -DCMAKE_INSTALL_PREFIX=/home/bru/grsim-pria-ws/install -G Unix Makefiles
