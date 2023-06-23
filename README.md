@@ -15,8 +15,8 @@ Tutorial em [português (PT-BR)](https://github.com/russibc/grsim-pria/blob/main
 ## Passo 2: Criar diretório 
 
 ```bash
-mkdir test_ssl
-cd test_ssl
+mkdir grsim-pria-ws
+cd grsim-pria-ws
 mkdir src
 cd src
 ```
@@ -29,7 +29,7 @@ catkin_init_workspace
 
 Tutorial disponível [aqui](https://github.com/RoboCup-SSL/grSim/blob/master/INSTALL.md).
 
-## Passo 5: Clonar repositórios dentro da pasta `src` do diretório `test_ssl`
+## Passo 5: Clonar repositórios dentro da pasta `src` do diretório `grsim-pria-ws`
 
 ```bash
 git clone https://github.com/Los-UruBots-del-Norte/vision_comm.git
@@ -37,7 +37,7 @@ git clone https://github.com/Los-UruBots-del-Norte/grsim_ros_bridge_msgs.git
 git clone https://github.com/Los-UruBots-del-Norte/grsim_ros_bridge.git
 git clone https://github.com/KRSSG/krssg_ssl_msgs.git
 ```
-Ao final se deve ter cinco diretórios dentro de `/test_ssl/src`: o `grSim` e os quatro repositórios clonados acima.
+Ao final se deve ter cinco diretórios dentro de `/grsim-pria-ws/src`: o `grSim` e os quatro repositórios clonados acima.
 
 ## Passo 6: Mudar o caminho do GrSim no arquivo `run_grsim.py`
 
@@ -85,7 +85,7 @@ E, por fim, reposicionar os jogadores fora do campo de modo que se pareça como 
 
 ## Passo 9: Fechar GrSim e Configurar workspace
 
-Volte ao diretório `test_ssl` e execute:
+Volte ao diretório `grsim-pria-ws` e execute:
 
 ```bash
 source /opt/ros/noetic/setup.bash
@@ -95,7 +95,7 @@ catkin_make
 source devel/setup.bash
 roscd grsim_ros_bridge
 ```
-O comando acima levará à pasta grsim_ros_bridge. Volte à pasta `test_ssl` e execute finalmente:
+O comando acima levará à pasta grsim_ros_bridge. Volte à pasta `grsim-pria-ws` e execute finalmente:
 ```bash
 roslaunch grsim_ros_bridge launch.launch
 ```
