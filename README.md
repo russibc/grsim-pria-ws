@@ -112,6 +112,18 @@ cd grsim-pria
 mkdir scripts
 cd scripts
 ```
-Em `grsim-pria/scripts` cole o arquivo `game.py`.
+Em `grsim-pria/scripts` cole o arquivo `game.py` e forneça permissão:
+```bash
+chmod +x game.py
+```
 
-
+Em seguida retorne ao diretório principal e recompile: 
+```bash
+source /opt/ros/noetic/setup.bash
+source devel/setup.bash
+catkin_make
+```
+Para executar, finalmente:
+```bash
+rosrun grsim-pria game.py
+```
