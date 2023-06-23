@@ -99,3 +99,19 @@ O comando acima levará à pasta grsim_ros_bridge. Volte à pasta `test_ssl` e e
 ```bash
 roslaunch grsim_ros_bridge launch.launch
 ```
+
+Em outro terminal (pasta `grsim-pria-ws/src`), faça:
+```bash
+source /opt/ros/noetic/setup.bash
+```
+```bash
+catkin_create_pkg grsim-pria grsim_ros_bridge_msgs/SSL rospy roscpp geometry_msgs std_msgs
+```
+```bash
+cd grsim-pria
+mkdir scripts
+cd scripts
+```
+Em `grsim-pria/scripts` cole o arquivo `game.py`.
+
+
