@@ -105,7 +105,7 @@ Em outro terminal (pasta `grsim-pria-ws/src`), faça:
 source /opt/ros/noetic/setup.bash
 ```
 ```bash
-catkin_create_pkg grsim-pria grsim_ros_bridge_msgs/SSL rospy roscpp geometry_msgs std_msgs
+catkin_create_pkg grsim-pria grsim_ros_bridge_msgs rospy roscpp geometry_msgs std_msgs
 ```
 ```bash
 cd grsim-pria
