@@ -86,7 +86,7 @@ E, por fim, reposicionar os jogadores fora do campo de modo que se pareça como 
 
 ![Board](https://github.com/russibc/grsim-pria/blob/main/board.png)
 
-## Passo 9: Fechar GrSim e Configurar workspace
+## Passo 9: Fechar GrSim e Configurar *workspace*
 
 Volte ao diretório `grsim-pria-ws` e execute:
 
