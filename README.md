@@ -120,16 +120,14 @@ Em `grsim-pria/scripts` cole o arquivo `game.py` e forneça permissão:
 chmod +x game.py
 ```
 
-Em seguida retorne ao diretório principal e recompile: 
+Em seguida retorne ao diretório principal `grsim-pria-ws` e recompile: 
 ```bash
 source /opt/ros/noetic/setup.bash
 source devel/setup.bash
 catkin_make
 ```
-
-**OBS. o jogo funciona minimamente se somente se os jogadores estiverem posicionados dentro do quadrante.**
-
 Para executar, finalmente:
 ```bash
 rosrun grsim-pria game.py
 ```
+**OBS. o código funciona se somente se os jogadores estiverem posicionados dentro do quadrante.**
