@@ -126,6 +126,9 @@ source /opt/ros/noetic/setup.bash
 source devel/setup.bash
 catkin_make
 ```
+
+**OBS. o jogo funciona minimamente se somente se os jogadores estiverem posicionados dentro do quadrante.**
+
 Para executar, finalmente:
 ```bash
 rosrun grsim-pria game.py
