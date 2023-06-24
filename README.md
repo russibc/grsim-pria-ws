@@ -1,4 +1,7 @@
-# grsim-pria
+# Trabalho final: grsim-pria
+
+**Estudiantes:**
+Bruna C. Russi & Eduardo G. S. Barreto
 
 ## Essencial: 
 
